@@ -1,0 +1,57 @@
+.container {
+    width: 30rem;
+    
+    margin-top: 120px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 2rem 1rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #fff;
+   
+}
+
+.container h2 {
+    margin-bottom: 2rem;
+    
+}
+
+.container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.container form label {
+    width: 100%;
+   cursor: pointer;
+    margin-bottom: 5px;
+}
+
+.container form input {
+    width: 16rem;
+    outline: none;
+    padding: 5px 10px;
+    margin-bottom: 1rem;
+    border: 1px solid rgb(133, 129, 129);
+    
+}
+
+button {
+    border: none;
+    color: #fff;
+    margin: 1rem 0;
+    font-size: 18px;
+    padding: 0.5rem;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5rem;
+    background: linear-gradient(to right, red, rgb(242, 255, 0));
+    
+    cursor: pointer;
+}
+
+.newUser span {
+    color: rgb(25, 176, 176);
+}
